@@ -17,6 +17,8 @@ Trustwallet/
 │── logs/                    # Stores logs for debugging and monitoring
 │── scripts/                 # ETL scripts (extraction, transformation, and loading)
 │── Dockerfile               # Docker setup to containerize the ETL pipeline
+│── load_transformed_data.py  # Transforming the data
+│── monitoring.py              # monitoring the job
 │── docker-compose.yml       # Defines services for ETL pipeline and database
 │── requirements.txt         # Python dependencies
 │── main.py                  # Main script to execute ETL pipeline
