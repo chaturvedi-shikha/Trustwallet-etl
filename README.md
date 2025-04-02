@@ -122,7 +122,4 @@ docker-compose down
 - **Auto-Scaling:** Utilize **cloud auto-scaling groups** to ensure high availability and dynamically allocate resources.
 - **Database Optimization:** Implement **partitioning and indexing** in PostgreSQL to enhance query performance.
 
-### 3. Reliability & Failover
-- **Retries & Error Handling:** Implement automatic retries for failed API calls and database transactions.
-- **Automated Alerts:** Configure monitoring tools like **AWS CloudWatch** or **Prometheus** to trigger alerts in case of failures.
-- **Database Backups:** Schedule **automatic periodic backups** using cloud-managed database services to ensure data integrity.
+
